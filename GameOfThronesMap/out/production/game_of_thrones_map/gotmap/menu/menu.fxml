@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="container" fx:controller="gotmap.menu.MenuController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <MenuBar fx:id="menuBar">
+            <Menu>
+                <graphic>
+                    <Label onMouseClicked="#slideshow" text="Banner Slideshow"/>
+                </graphic>
+            </Menu>
+        </MenuBar>
+    </top>
+    <center>
+                <TabPane prefHeight="63.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                    <Tab text="House Information">
+                            <TableView prefHeight="180.0" prefWidth="200.0" fx:id="houseTable" />
+                    </Tab>
+                    <Tab text="Family Members">
+                            <ListView prefHeight="180.0" prefWidth="200.0"  fx:id="familyList" />
+                    </Tab>
+                </TabPane>
+    </center>
+</BorderPane>

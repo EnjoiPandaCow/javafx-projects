@@ -1,0 +1,53 @@
+.menuTopStack {
+    -fx-border-color: #FEF380;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-background-color: #FEF380;
+}
+
+#bottomHBox {
+
+    -fx-background-color: #F4B228;
+    -fx-border-color: #F2AA13;
+    -fx-border-width: 5px;
+}
+
+#buttonBox {
+    -fx-background-color: #F2AA13;
+    -fx-background-size: 100%;
+    -fx-border-color: #F4B228;
+    -fx-border-width: 5px;
+}
+
+.centerPanes {
+    -fx-background-color: black;
+}
+
+.centerStacks {
+    -fx-background-image: url("../../img/background.png");
+    -fx-background-size: 100%;
+}
+
+.blocks {
+    -fx-background-color: #ff6e37;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-background-image: url("../../img/block_patteren.jpg");
+}
+
+.highlightedBlock {
+    -fx-border-color: aquamarine;
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+}
+
+.menuBox {
+    -fx-background-image: url("../../img/toh.jpg");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.menuHead {
+    -fx-background-color: #FEF380;
+}
